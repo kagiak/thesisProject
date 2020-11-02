@@ -3,9 +3,9 @@
 The thesis contains 3 parts. 
 - First the classification
 - Second the creation of localization maps (or segmentation masks) 
-- and third the segmentation procrdure. 
+- and third the segmentation procedure. 
 
-The following work is mainly done on the multiclass dB Food-11.
+*The following work is mainly done on the multiclass dB Food-11.*
 
 1) The **getIngredients.py** script is used in order to get the correct ingredients for each image from the original dataset (Recipe1m) that contains all the information retrieved from the web.
 2) The **INCEPTIONV3-food11.py** script uses the Inception v3 model (modified for my problem) on the Food-11 dataset for classification purposes.
