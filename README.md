@@ -7,10 +7,10 @@ The thesis contains 3 parts.
 
 *The following work is mainly done on the multiclass dB Food-11.*
 
-*In the link [here](https://www.kaggle.com/trolukovich/food11-image-dataset) there are the images of the Food-11 dB.*
+*In the link [here](https://www.kaggle.com/trolukovich/food11-image-dataset) there are the images of the Food-11 dB, divided into 3 sub-folders, training, validation, evaluation.*
 
-*Inside the segmentation folder there are the localization masks.*
-*And inside the 110 folder 110 test images that have been manually segmented and used for evaluating the performance of the created segmentation masks for the second part of the thesis*
+*Inside the segmentation folder there are the localization masks for training, validation and testinf sets.*
+*And inside the 110 folder there are 110 test images that have been manually segmented and used for evaluating the performance of the created segmentation masks for the second part of the thesis*
 
 1) The **getIngredients.py** script is used in order to get the correct ingredients for each image from the original dataset (Recipe1m) that contains all the information retrieved from the web.
 2) The **INCEPTIONV3-food11.py** script uses the Inception v3 model (modified for my problem) on the Food-11 dataset for classification purposes.
