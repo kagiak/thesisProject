@@ -1,9 +1,9 @@
 # ThesisProject scripts
 
 The thesis contains 3 parts. 
--First the classification
--Second the creation of localization maps (or segmentation masks) 
--and third the segmentation procrdure. 
+- First the classification
+- Second the creation of localization maps (or segmentation masks) 
+- and third the segmentation procrdure. 
 
 The following work is mainly done on the multiclass dB Food-11.
 
